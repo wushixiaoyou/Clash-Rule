@@ -9,16 +9,14 @@ proxy-groups:
   url: https://cp.cloudflare.com/generate_204
   interval: 300
   proxies:
-  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
-  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
 
 - name: "\U0001F310 国外流量"
   type: select
   proxies:
   - ♻️ 故障切换
   - ➡️ 直接连接
-  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
-  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
 
 - name: "\U0001F6A5 其他流量"
   type: select
@@ -31,56 +29,49 @@ proxy-groups:
   proxies:
   - "\U0001F310 国外流量"
   - ➡️ 直接连接
-  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
-  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
 
 - name: "\U0001F3AC 大陆流媒体国际版"
   type: select
   proxies:
   - ➡️ 直接连接
   - "\U0001F310 国外流量"
-  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
-  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
 
 - name: "\U0001F3AE 游戏平台"
   type: select
   proxies:
   - "\U0001F310 国外流量"
   - ➡️ 直接连接
-  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
-  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
 
 - name: "\U0001F310 国际网站"
   type: select
   proxies:
   - "\U0001F310 国外流量"
   - ➡️ 直接连接
-  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
-  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
 
 - name: "\U0001F3E0 大陆流量"
   type: select
   proxies:
   - ➡️ 直接连接
   - "\U0001F310 国外流量"
-  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
-  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
 
 - name: "\U0001F3AC 大陆流媒体"
   type: select
   proxies:
   - "\U0001F3E0 大陆流量"
   - ➡️ 直接连接
-  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
-  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
 
 - name: "\U0001F3E0 大陆网站"
   type: select
   proxies:
   - "\U0001F3E0 大陆流量"
   - ➡️ 直接连接
-  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
-  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
 
 
 
