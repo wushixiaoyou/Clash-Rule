@@ -8,7 +8,7 @@
 # IP-CIDR: 46
 # TOTAL: 583
 payload:
-  - DOMAIN,eaasserts-a.akamaihd.net
+  - DOMAIN,eaasserts-a.akamaihd.net11
   - DOMAIN,originasserts.akamaized.net
   - DOMAIN,gog.salesmanago.com
   - DOMAIN,steammobile.akamaized.net
