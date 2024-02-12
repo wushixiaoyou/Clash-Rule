@@ -9,6 +9,7 @@
 # IP-CIDR6: 4
 # TOTAL: 3724
 payload:
+  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
