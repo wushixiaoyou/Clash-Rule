@@ -1,0 +1,153 @@
+proxy-groups:
+- name: ➡️ 直接连接
+  type: select
+  proxies:
+  - DIRECT
+
+- name: ♻️ 故障切换
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  proxies:
+  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
+  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
+- name: "\U0001F310 国外流量"
+  type: select
+  proxies:
+  - ♻️ 故障切换
+  - ➡️ 直接连接
+  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
+  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
+- name: "\U0001F6A5 其他流量"
+  type: select
+  proxies:
+  - "\U0001F310 国外流量"
+  - ➡️ 直接连接
+
+- name: "\U0001F3AC 国际流媒体"
+  type: select
+  proxies:
+  - "\U0001F310 国外流量"
+  - ➡️ 直接连接
+  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
+  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
+- name: "\U0001F3AC 大陆流媒体国际版"
+  type: select
+  proxies:
+  - ➡️ 直接连接
+  - "\U0001F310 国外流量"
+  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
+  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
+- name: "\U0001F3AE 游戏平台"
+  type: select
+  proxies:
+  - "\U0001F310 国外流量"
+  - ➡️ 直接连接
+  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
+  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
+- name: "\U0001F310 国际网站"
+  type: select
+  proxies:
+  - "\U0001F310 国外流量"
+  - ➡️ 直接连接
+  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
+  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
+- name: "\U0001F3E0 大陆流量"
+  type: select
+  proxies:
+  - ➡️ 直接连接
+  - "\U0001F310 国外流量"
+  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
+  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
+- name: "\U0001F3AC 大陆流媒体"
+  type: select
+  proxies:
+  - "\U0001F3E0 大陆流量"
+  - ➡️ 直接连接
+  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
+  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
+- name: "\U0001F3E0 大陆网站"
+  type: select
+  proxies:
+  - "\U0001F3E0 大陆流量"
+  - ➡️ 直接连接
+  - "\U0001F1F7\U0001F1FA 俄罗斯 01 RT IPv6"
+  - "\U0001F1F1\U0001F1FA 卢森堡 01 Cogent（0.5倍率/无版权）"
+
+
+
+rules:
+- RULE-SET,Direct,DIRECT
+- "RULE-SET,GlobalMedia,\U0001F3AC 国际流媒体"
+- "RULE-SET,AsianMedia,\U0001F3AC 大陆流媒体国际版"
+- "RULE-SET,Game,\U0001F3AE 游戏平台"
+- "RULE-SET,Global,\U0001F310 国际网站"
+- "RULE-SET,ChinaMedia,\U0001F3AC 大陆流媒体"
+- "RULE-SET,China,\U0001F3E0 大陆网站"
+- RULE-SET,Lan,DIRECT
+- "RULE-SET,ChinaIPs,\U0001F3E0 大陆流量"
+- "MATCH,\U0001F6A5 其他流量"
+
+rule-providers:
+  Direct:
+    type: http
+    behavior: classical
+    path: ./RuleSetUrei/Direct.yaml
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Direct.yaml
+    interval: 86400
+  GlobalMedia:
+    type: http
+    behavior: classical
+    path: ./RuleSetUrei/GlobalMedia.yaml
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/GlobalMedia_Classical.yaml
+    interval: 86400
+  AsianMedia:
+    type: http
+    behavior: classical
+    path: ./RuleSetUrei/AsianMedia.yaml
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/AsianMedia.yaml
+    interval: 86400
+  Game:
+    type: http
+    behavior: classical
+    path: ./RuleSetUrei/Game.yaml
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Game.yaml
+    interval: 86400
+  Global:
+    type: http
+    behavior: classical
+    path: ./RuleSetUrei/Global.yaml
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Global_Classical.yaml
+    interval: 86400
+  ChinaMedia:
+    type: http
+    behavior: classical
+    path: ./RuleSetUrei/ChinaMedia.yaml
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/ChinaMedia.yaml
+    interval: 86400
+  China:
+    type: http
+    behavior: classical
+    path: ./RuleSetUrei/China.yaml
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/China_Classical.yaml
+    interval: 86400
+  Lan:
+    type: http
+    behavior: classical
+    path: ./RuleSetUrei/Lan.yaml
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Lan.yaml
+    interval: 86400
+  ChinaIPs:
+    type: http
+    behavior: classical
+    path: ./RuleSetUrei/ChinaIPs.yaml
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/ChinaIPs_Classical.yaml
+    interval: 86400
