@@ -11,7 +11,8 @@
 payload:
   - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
 #  - DOMAIN-SUFFIX,kaspersky-labs.com
-  
+#  - DOMAIN-SUFFIX,microsoft.com
+#  - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
@@ -2315,8 +2316,7 @@ payload:
   - DOMAIN-SUFFIX,miaopai.com
   - DOMAIN-SUFFIX,miaostreet.com
   - DOMAIN-SUFFIX,miaozhen.com
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,microsoftonline.com
+
   - DOMAIN-SUFFIX,midasbuy.com
   - DOMAIN-SUFFIX,miercn.com
   - DOMAIN-SUFFIX,migucloud.com
