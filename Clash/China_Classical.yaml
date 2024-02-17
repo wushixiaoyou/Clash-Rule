@@ -10,6 +10,8 @@
 # TOTAL: 3724
 payload:
   - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
+#  - DOMAIN-SUFFIX,kaspersky-labs.com
+  
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
@@ -2026,7 +2028,6 @@ payload:
   - DOMAIN-SUFFIX,kaola.com
   - DOMAIN-SUFFIX,kaopu001.com
   - DOMAIN-SUFFIX,karger.com
-  - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,kcbebank.com
   - DOMAIN-SUFFIX,keboyunxiao.com
   - DOMAIN-SUFFIX,kechuang.org
