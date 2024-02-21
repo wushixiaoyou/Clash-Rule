@@ -10,7 +10,7 @@
 # PROCESS-NAME: 1
 # TOTAL: 19684
 payload:
-#  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器 好像同时管着steam好友
+  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器 好像同时管着steam好友
   - DOMAIN,store.steampowered.com #steam商店
   - DOMAIN,steamcommunity.com #steam社区  
   - DOMAIN,steammobile.akamaized.net
