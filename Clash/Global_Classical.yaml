@@ -11,7 +11,8 @@
 # TOTAL: 19684
 payload:
   - DOMAIN,store.steampowered.com #steam商店
-  - DOMAIN,steamcommunity.com #steam社区  - DOMAIN,steammobile.akamaized.net
+  - DOMAIN,steamcommunity.com #steam社区  
+  - DOMAIN,steammobile.akamaized.net
   - DOMAIN-SUFFIX,dl.steam.clngaa.com
   - DOMAIN-SUFFIX,dl.steam.ksyna.com
   - DOMAIN-SUFFIX,steam-api.com
