@@ -11,16 +11,16 @@
 # TOTAL: 19684
 payload:
 #  - DOMAIN-SUFFIX,steamserver.net
+#  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器 好像同时管着steam好友
-  - DOMAIN,store.steampowered.com #steam商店
-  - DOMAIN,steamcommunity.com #steam社区  
-  - DOMAIN,steammobile.akamaized.net
+  - DOMAIN-SUFFIX,store.steampowered.com #steam商店
+  - DOMAIN-SUFFIX,steamcommunity.com #steam社区  
+  - DOMAIN-SUFFIX,steammobile.akamaized.net
   - DOMAIN-SUFFIX,dl.steam.clngaa.com
   - DOMAIN-SUFFIX,dl.steam.ksyna.com
   - DOMAIN-SUFFIX,steam-api.com
   - DOMAIN-SUFFIX,steam-chat.com
   - DOMAIN-SUFFIX,steambroadcast.akamaized.net
-#  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
@@ -37,8 +37,6 @@ payload:
   - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
   - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
   - DOMAIN-SUFFIX,steamchina.com
-
-
   - DOMAIN-SUFFIX,steamusercontent.com  
   - DOMAIN-KEYWORD,steambroadcast
   - DOMAIN-KEYWORD,steamstore
