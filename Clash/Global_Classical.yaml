@@ -10,6 +10,8 @@
 # PROCESS-NAME: 1
 # TOTAL: 19684
 payload:
+  - DOMAIN,store.steampowered.com #steam商店
+  - DOMAIN,steamcommunity.com #steam社区
   - DOMAIN,a.ppy.sh
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
