@@ -9,7 +9,7 @@
 # IP-CIDR6: 4
 # TOTAL: 3724
 payload:
-#  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
+  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器 好像同时管着steam好友
 #  - DOMAIN-SUFFIX,kaspersky-labs.com
 #  - DOMAIN-SUFFIX,microsoft.com
 #  - DOMAIN-SUFFIX,microsoftonline.com
