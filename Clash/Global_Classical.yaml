@@ -10,6 +10,7 @@
 # PROCESS-NAME: 1
 # TOTAL: 19684
 payload:
+#  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器 好像同时管着steam好友
   - DOMAIN,store.steampowered.com #steam商店
   - DOMAIN,steamcommunity.com #steam社区  
   - DOMAIN,steammobile.akamaized.net
@@ -35,7 +36,7 @@ payload:
   - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
   - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
   - DOMAIN-SUFFIX,steamchina.com
-  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
+
   - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,steamusercontent.com  
   - DOMAIN-KEYWORD,steambroadcast
