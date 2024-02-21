@@ -19,7 +19,7 @@ payload:
   - DOMAIN-SUFFIX,steam-api.com
   - DOMAIN-SUFFIX,steam-chat.com
   - DOMAIN-SUFFIX,steambroadcast.akamaized.net
-  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+#  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
