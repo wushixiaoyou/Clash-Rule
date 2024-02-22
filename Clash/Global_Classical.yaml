@@ -10,6 +10,7 @@
 # PROCESS-NAME: 1
 # TOTAL: 19684
 payload:
+#  - DOMAIN-SUFFIX,akamaihd.net
 #  - DOMAIN-SUFFIX,akamaihd.com
 #  - DOMAIN-SUFFIX,akamaized.net
 #  - DOMAIN-SUFFIX,steamserver.net
@@ -13916,7 +13917,7 @@ payload:
   - DOMAIN-SUFFIX,ajsands.com
   - DOMAIN-SUFFIX,akademiye.org
   - DOMAIN-SUFFIX,akamai.net
-  - DOMAIN-SUFFIX,akamaihd.net
+
   - DOMAIN-SUFFIX,akamaistream.net
   - DOMAIN-SUFFIX,akiba-online.com
   - DOMAIN-SUFFIX,akiba-web.com
