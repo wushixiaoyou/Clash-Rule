@@ -9,10 +9,15 @@
 # IP-CIDR6: 4
 # TOTAL: 3724
 payload:
-  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
+#  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
 #  - DOMAIN-SUFFIX,kaspersky-labs.com
 #  - DOMAIN-SUFFIX,microsoft.com
 #  - DOMAIN-SUFFIX,microsoftonline.com
+#  - DOMAIN-SUFFIX,offcn.com
+#  - DOMAIN-SUFFIX,office.com
+#  - DOMAIN-SUFFIX,office.net
+#  - DOMAIN-SUFFIX,office365.com
+#  - DOMAIN-SUFFIX,officese.com
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
@@ -2468,11 +2473,7 @@ payload:
   - DOMAIN-SUFFIX,ocwms.com
   - DOMAIN-SUFFIX,oecd-ilibrary.org
   - DOMAIN-SUFFIX,oeeee.com
-  - DOMAIN-SUFFIX,offcn.com
-  - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,office.net
-  - DOMAIN-SUFFIX,office365.com
-  - DOMAIN-SUFFIX,officese.com
+
   - DOMAIN-SUFFIX,oi-wiki.com
   - DOMAIN-SUFFIX,oicq88.com
   - DOMAIN-SUFFIX,okooo.com
