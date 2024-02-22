@@ -10,6 +10,8 @@
 # PROCESS-NAME: 1
 # TOTAL: 19684
 payload:
+#  - DOMAIN-SUFFIX,akamaihd.com
+#  - DOMAIN-SUFFIX,akamaized.net
 #  - DOMAIN-SUFFIX,steamserver.net
 #  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器 好像同时管着steam好友
@@ -864,7 +866,7 @@ payload:
   - DOMAIN-SUFFIX,akamaietpmalwaretest.com
   - DOMAIN-SUFFIX,akamaietpphishingtest.com
   - DOMAIN-SUFFIX,akamaihd-staging.net
-  - DOMAIN-SUFFIX,akamaihd.com
+
   - DOMAIN-SUFFIX,akamaimagicmath.net
   - DOMAIN-SUFFIX,akamainewzealand.com
   - DOMAIN-SUFFIX,akamaiphillipines.com
@@ -875,7 +877,7 @@ payload:
   - DOMAIN-SUFFIX,akamaitechnologies.com
   - DOMAIN-SUFFIX,akamaitechnologies.net
   - DOMAIN-SUFFIX,akamaized-staging.net
-  - DOMAIN-SUFFIX,akamaized.net
+
   - DOMAIN-SUFFIX,akamaizercentral.com
   - DOMAIN-SUFFIX,akamak.com
   - DOMAIN-SUFFIX,akamam.com
