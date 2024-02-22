@@ -10,41 +10,6 @@
 # PROCESS-NAME: 1
 # TOTAL: 19684
 payload:
-#  - DOMAIN-SUFFIX,akamaihd.net
-#  - DOMAIN-SUFFIX,akamaihd.com
-#  - DOMAIN-SUFFIX,akamaized.net
-#  - DOMAIN-SUFFIX,steamserver.net
-#  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器 好像同时管着steam好友
-  - DOMAIN-SUFFIX,store.steampowered.com #steam商店
-  - DOMAIN-SUFFIX,steamcommunity.com #steam社区  
-  - DOMAIN-SUFFIX,steammobile.akamaized.net
-  - DOMAIN-SUFFIX,dl.steam.clngaa.com
-  - DOMAIN-SUFFIX,dl.steam.ksyna.com
-  - DOMAIN-SUFFIX,steam-api.com
-  - DOMAIN-SUFFIX,steam-chat.com
-  - DOMAIN-SUFFIX,steambroadcast.akamaized.net
-  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steampipe.akamaized.net
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steampowered.com.8686c.com
-  - DOMAIN-SUFFIX,steamstat.us
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
-  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamunlocked.net
-  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
-#  - DOMAIN-SUFFIX,steamchina.com
-  - DOMAIN-SUFFIX,steamusercontent.com  
-  - DOMAIN-KEYWORD,steambroadcast
-  - DOMAIN-KEYWORD,steamstore
-  - DOMAIN-KEYWORD,steamuserimages
-  
   - DOMAIN,a.ppy.sh
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -867,7 +832,7 @@ payload:
   - DOMAIN-SUFFIX,akamaietpmalwaretest.com
   - DOMAIN-SUFFIX,akamaietpphishingtest.com
   - DOMAIN-SUFFIX,akamaihd-staging.net
-
+  - DOMAIN-SUFFIX,akamaihd.com
   - DOMAIN-SUFFIX,akamaimagicmath.net
   - DOMAIN-SUFFIX,akamainewzealand.com
   - DOMAIN-SUFFIX,akamaiphillipines.com
@@ -878,7 +843,7 @@ payload:
   - DOMAIN-SUFFIX,akamaitechnologies.com
   - DOMAIN-SUFFIX,akamaitechnologies.net
   - DOMAIN-SUFFIX,akamaized-staging.net
-
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,akamaizercentral.com
   - DOMAIN-SUFFIX,akamak.com
   - DOMAIN-SUFFIX,akamam.com
@@ -13917,7 +13882,7 @@ payload:
   - DOMAIN-SUFFIX,ajsands.com
   - DOMAIN-SUFFIX,akademiye.org
   - DOMAIN-SUFFIX,akamai.net
-
+  - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,akamaistream.net
   - DOMAIN-SUFFIX,akiba-online.com
   - DOMAIN-SUFFIX,akiba-web.com
