@@ -14,7 +14,8 @@ payload:
   - DOMAIN-SUFFIX,steam-api.com
   - DOMAIN-SUFFIX,steam-chat.com
   - DOMAIN-SUFFIX,steambroadcast.akamaized.net
-  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+#  - DOMAIN,steamcdn-a.akamaihd.net
+#  - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
@@ -33,11 +34,11 @@ payload:
   - DOMAIN-SUFFIX,wmsjsteam.com
   - DOMAIN-SUFFIX,steamchina.com
 #  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
-  - DOMAIN-SUFFIX,steamserver.net
+
   - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-KEYWORD,steambroadcast
-  - DOMAIN-KEYWORD,steamstore
-  - DOMAIN-KEYWORD,steamuserimages
+#  - DOMAIN-KEYWORD,steambroadcast
+#  - DOMAIN-KEYWORD,steamstore
+#  - DOMAIN-KEYWORD,steamuserimages
 
   - IP-CIDR,159.138.26.73/32 #战意
   - IP-CIDR,119.12.169.143/32 #战意
