@@ -9,6 +9,8 @@
 # IP-CIDR6: 4
 # TOTAL: 3724
 payload:
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN-SUFFIX,steampp.net #这啥？
 #  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
 #  - DOMAIN-SUFFIX,kaspersky-labs.com
 #  - DOMAIN-SUFFIX,microsoft.com
@@ -32,7 +34,7 @@ payload:
   - DOMAIN,origin-a.akamaihd.ne
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,sms.imagetasks.com
-  - DOMAIN,steamcommunity-a.akamaihd.net
+
   - DOMAIN,www.libvideo.com
   - DOMAIN,www.yxssp.com
   - DOMAIN-SUFFIX,00cdn.com
@@ -2909,7 +2911,7 @@ payload:
   - DOMAIN-SUFFIX,staticdn.net
   - DOMAIN-SUFFIX,staticfile.org
   - DOMAIN-SUFFIX,stcn.com
-  - DOMAIN-SUFFIX,steampp.net
+
   - DOMAIN-SUFFIX,stockstar.com
   - DOMAIN-SUFFIX,suanya.com
   - DOMAIN-SUFFIX,sui.com
