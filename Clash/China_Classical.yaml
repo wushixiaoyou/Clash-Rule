@@ -9,7 +9,10 @@
 # IP-CIDR6: 4
 # TOTAL: 3724
 payload:
-  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamserver.net
+
+#  - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steampp.net #这啥？
 #  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
 #  - DOMAIN-SUFFIX,kaspersky-labs.com
