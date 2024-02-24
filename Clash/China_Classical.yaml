@@ -25,6 +25,11 @@ payload:
 #  - DOMAIN-SUFFIX,office.net
 #  - DOMAIN-SUFFIX,office365.com
 #  - DOMAIN-SUFFIX,officese.com
+
+
+
+  - IP-CIDR,159.138.30.204/24 #战意服务器
+  
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
