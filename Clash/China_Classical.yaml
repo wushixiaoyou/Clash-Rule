@@ -31,6 +31,8 @@ payload:
   - IP-CIDR,159.138.30.204/24 #战意服务器
   - IP-CIDR,159.138.142.156/24 #战意服务器
   - IP-CIDR,119.8.46.17/24 #战意服务器
+  - IP-CIDR, 159.138.63.138/24 #战意服务器
+  - IP-CIDR,119.12.175.161/24 #战意服务器
   
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
