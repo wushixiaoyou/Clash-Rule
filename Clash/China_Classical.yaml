@@ -25,7 +25,7 @@ payload:
 #  - DOMAIN-SUFFIX,office.net
 #  - DOMAIN-SUFFIX,office365.com
 #  - DOMAIN-SUFFIX,officese.com
-
+#  - DOMAIN-SUFFIX,s-microsoft.com
 
 
   - IP-CIDR,159.138.30.204/24 #战意服务器
@@ -2760,7 +2760,7 @@ payload:
   - DOMAIN-SUFFIX,runoob.com
   - DOMAIN-SUFFIX,runsheng.com
   - DOMAIN-SUFFIX,rzrc114.com
-  - DOMAIN-SUFFIX,s-microsoft.com
+
   - DOMAIN-SUFFIX,s-reader.com
   - DOMAIN-SUFFIX,sa-brazil-1.myhuaweicloud.com
   - DOMAIN-SUFFIX,saasops.tech
