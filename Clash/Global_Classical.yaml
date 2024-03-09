@@ -21,6 +21,8 @@ payload:
   - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,update.googleapis.com
+  - DOMAIN-SUFFIX,api.steampowered.com
+
 
   - DOMAIN,storeedgefd.dsx.mp.microsoft.com #微软商店
   - DOMAIN-KEYWORD,kaspersky
