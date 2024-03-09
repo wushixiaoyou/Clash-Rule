@@ -10,6 +10,17 @@
 # PROCESS-NAME: 1
 # TOTAL: 19684
 payload:
+
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamunlocked.net
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
+
+
+
   - DOMAIN,storeedgefd.dsx.mp.microsoft.com #微软商店
   - DOMAIN-KEYWORD,kaspersky
   - DOMAIN,a.ppy.sh
