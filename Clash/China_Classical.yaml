@@ -26,7 +26,7 @@ payload:
 #  - DOMAIN-SUFFIX,office365.com
 #  - DOMAIN-SUFFIX,officese.com
 #  - DOMAIN-SUFFIX,s-microsoft.com
-
+  - DOMAIN,test.steampowered.com
 
   - IP-CIDR,159.138.30.204/24 #战意服务器
   - IP-CIDR,159.138.142.156/24 #战意服务器
