@@ -27,7 +27,9 @@ payload:
 #  - DOMAIN-SUFFIX,officese.com
 #  - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN,test.steampowered.com
-  - DOMAIN,api.steampowered.com
+  - DOMAIN,api.steampowered.com #test
+  - DOMAIN,ipv6check-udp.steamserver.net #test
+
   
   - IP-CIDR,159.138.30.204/24 #战意服务器
   - IP-CIDR,159.138.142.156/24 #战意服务器
