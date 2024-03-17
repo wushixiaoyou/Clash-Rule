@@ -14,7 +14,7 @@ payload:
 
 #  - DOMAIN,steamcommunity-a.akamaihd.net
 #  - DOMAIN-SUFFIX,steampp.net #这啥？
-  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
+
 #  - DOMAIN-SUFFIX,kaspersky-labs.com
 #  - DOMAIN-SUFFIX,microsoft.com
 #  - DOMAIN-SUFFIX,microsoftonline.com
@@ -29,7 +29,8 @@ payload:
   - DOMAIN,test.steampowered.com
   - DOMAIN,api.steampowered.com #test
   - DOMAIN,ipv6check-udp.steamserver.net #test
-
+  - DOMAIN-SUFFIX,steamcontent.com #大概是steam下载服务器
+  - DOMAIN-SUFFIX,steamserver.net #大概是steam下载服务器
   
   - IP-CIDR,159.138.30.204/24 #战意服务器
   - IP-CIDR,159.138.142.156/24 #战意服务器
