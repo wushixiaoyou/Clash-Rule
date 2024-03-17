@@ -29,8 +29,8 @@ payload:
   - DOMAIN,test.steampowered.com
   - DOMAIN,api.steampowered.com #test
   - DOMAIN,ipv6check-udp.steamserver.net #test
-  - DOMAIN,steamcontent.com #大概是steam下载服务器
-  - DOMAIN,steamserver.net #大概是steam下载服务器
+#  - DOMAIN,steamcontent.com #大概是steam下载服务器
+#  - DOMAIN,steamserver.net #大概是steam下载服务器
 
 
   
