@@ -29,8 +29,10 @@ payload:
   - DOMAIN,test.steampowered.com
   - DOMAIN,api.steampowered.com #test
   - DOMAIN,ipv6check-udp.steamserver.net #test
-  - DOMAIN-SUFFIX,*.steamcontent.com #大概是steam下载服务器
-  - DOMAIN-SUFFIX,*.steamserver.net #大概是steam下载服务器
+  - DOMAIN,steamcontent.com #大概是steam下载服务器
+  - DOMAIN,steamserver.net #大概是steam下载服务器
+
+
   
   - IP-CIDR,159.138.30.204/24 #战意服务器
   - IP-CIDR,159.138.142.156/24 #战意服务器
