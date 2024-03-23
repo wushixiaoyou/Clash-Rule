@@ -23,6 +23,8 @@ payload:
   - DOMAIN-SUFFIX,update.googleapis.com
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,googleapis.com
+
 
   - DOMAIN,store-images.s-microsoft.com
 
