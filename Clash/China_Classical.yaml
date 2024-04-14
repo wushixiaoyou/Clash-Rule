@@ -31,7 +31,7 @@ payload:
   - DOMAIN,ipv6check-udp.steamserver.net #test
 #  - DOMAIN,steamcontent.com #大概是steam下载服务器
 #  - DOMAIN,steamserver.net #大概是steam下载服务器
-  - DOMAIN-SUFFIX,cache*-hkg*.steamcontent.com
+  - DOMAIN,cache*-hkg*.steamcontent.com
 
   
   - IP-CIDR,159.138.30.204/24 #战意服务器
