@@ -36,6 +36,7 @@ payload:
 
   - PROCESS-NAME,RvControlSvc.exe
   - PROCESS-NAME,RvRvpnGui.exe
+  - PROCESS-NAME,mstsc.exe
   
   - IP-CIDR,159.138.30.204/24 #战意服务器
   - IP-CIDR,159.138.142.156/24 #战意服务器
