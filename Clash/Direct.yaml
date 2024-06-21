@@ -9,14 +9,14 @@
 # TOTAL: 207
 payload:
   - DOMAIN,ad.10010.com
-  - DOMAIN,alt1-mtalk.google.com
-  - DOMAIN,alt2-mtalk.google.com
-  - DOMAIN,alt3-mtalk.google.com
-  - DOMAIN,alt4-mtalk.google.com
-  - DOMAIN,alt5-mtalk.google.com
-  - DOMAIN,alt6-mtalk.google.com
-  - DOMAIN,alt7-mtalk.google.com
-  - DOMAIN,alt8-mtalk.google.com
+  #- DOMAIN,alt1-mtalk.google.com
+  #- DOMAIN,alt2-mtalk.google.com
+  #- DOMAIN,alt3-mtalk.google.com
+  #- DOMAIN,alt4-mtalk.google.com
+  #- DOMAIN,alt5-mtalk.google.com
+  #- DOMAIN,alt6-mtalk.google.com
+  #- DOMAIN,alt7-mtalk.google.com
+  #- DOMAIN,alt8-mtalk.google.com
   - DOMAIN,analytics.95516.com
   - DOMAIN,analytics.strava.com
   - DOMAIN,app.adjust.com
@@ -34,7 +34,7 @@ payload:
   - DOMAIN,log.mmstat.com
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
-  - DOMAIN,mtalk.google.com
+  #- DOMAIN,mtalk.google.com
   - DOMAIN,new-api.meiqia.com
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,rewards.hypixel.net
