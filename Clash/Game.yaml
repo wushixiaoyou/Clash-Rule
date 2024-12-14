@@ -40,10 +40,13 @@ payload:
 #  - DOMAIN-KEYWORD,steamstore
 #  - DOMAIN-KEYWORD,steamuserimages
 
-  - IP-CIDR,159.138.26.73/32 #战意
-  - IP-CIDR,119.12.169.143/32 #战意
-  - IP-CIDR,159.138.26.73/32 #战意
-  - IP-CIDR,119.8.81.46/32 #战意
+#上次改动部分___
+  #- IP-CIDR,159.138.26.73/32 #战意
+  #- IP-CIDR,119.12.169.143/32 #战意
+  #- IP-CIDR,159.138.26.73/32 #战意
+  #- IP-CIDR,119.8.81.46/32 #战意
+#------------------------
+  
   - DOMAIN,eaasserts-a.akamaihd.net
   - DOMAIN,originasserts.akamaized.net
   - DOMAIN,gog.salesmanago.com
