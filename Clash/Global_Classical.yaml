@@ -25,11 +25,12 @@ payload:
   - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN-SUFFIX,googleapis.com
 
-
+  - DOMAIN-SUFFIX,vrchat.com
+  
   - DOMAIN,store-images.s-microsoft.com
 
   - DOMAIN,storeedgefd.dsx.mp.microsoft.com #微软商店
-  - DOMAIN,visualstudio.com
+  - DOMAIN-SUFFIX,visualstudio.com
 
 
 
