@@ -2,54 +2,54 @@ rule-providers:
   AsianMedia:
     behavior: classical
     interval: 86400
-    path: ./RuleSetUrei/AsianMedia.yaml
+    path: ./RuleSet_Urei/AsianMedia.yaml
     type: http
     url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/AsianMedia.yaml
   China:
     behavior: classical
     interval: 86400
-    path: ./RuleSetUrei/China.yaml
+    path: ./RuleSet_Urei/China.yaml
     type: http
     url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/China.yaml
   ChinaIPs:
     behavior: classical
     interval: 86400
-    path: ./RuleSetUrei/ChinaIPs.yaml
+    path: ./RuleSet_Urei/ChinaIPs.yaml
     type: http
     url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/ChinaIPs.yaml
   ChinaMedia:
     behavior: classical
     interval: 86400
-    path: ./RuleSetUrei/ChinaMedia.yaml
+    path: ./RuleSet_Urei/ChinaMedia.yaml
     type: http
     url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/ChinaMedia.yaml
   Direct:
     behavior: classical
     interval: 86400
-    path: ./RuleSetUrei/Direct.yaml
+    path: ./RuleSet_Urei/Direct.yaml
     type: http
     url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Direct.yaml
   Game:
     behavior: classical
     interval: 86400
-    path: ./RuleSetUrei/Game.yaml
+    path: ./RuleSet_Urei/Game.yaml
     type: http
     url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Game.yaml
   Global:
     behavior: classical
     interval: 86400
-    path: ./RuleSetUrei/Global.yaml
+    path: ./RuleSet_Urei/Global.yaml
     type: http
     url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Global.yaml
   GlobalMedia:
     behavior: classical
     interval: 86400
-    path: ./RuleSetUrei/GlobalMedia.yaml
+    path: ./RuleSet_Urei/GlobalMedia.yaml
     type: http
     url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/GlobalMedia.yaml
   Lan:
     behavior: classical
     interval: 86400
-    path: ./RuleSetUrei/Lan.yaml
+    path: ./RuleSet_Urei/Lan.yaml
     type: http
     url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Lan.yaml
