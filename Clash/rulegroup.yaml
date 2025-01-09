@@ -1,0 +1,55 @@
+rule-providers:
+  AsianMedia:
+    behavior: classical
+    interval: 86400
+    path: ./RuleSetUrei/AsianMedia.yaml
+    type: http
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/AsianMedia.yaml
+  China:
+    behavior: classical
+    interval: 86400
+    path: ./RuleSetUrei/China.yaml
+    type: http
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/China.yaml
+  ChinaIPs:
+    behavior: classical
+    interval: 86400
+    path: ./RuleSetUrei/ChinaIPs.yaml
+    type: http
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/ChinaIPs.yaml
+  ChinaMedia:
+    behavior: classical
+    interval: 86400
+    path: ./RuleSetUrei/ChinaMedia.yaml
+    type: http
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/ChinaMedia.yaml
+  Direct:
+    behavior: classical
+    interval: 86400
+    path: ./RuleSetUrei/Direct.yaml
+    type: http
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Direct.yaml
+  Game:
+    behavior: classical
+    interval: 86400
+    path: ./RuleSetUrei/Game.yaml
+    type: http
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Game.yaml
+  Global:
+    behavior: classical
+    interval: 86400
+    path: ./RuleSetUrei/Global.yaml
+    type: http
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Global.yaml
+  GlobalMedia:
+    behavior: classical
+    interval: 86400
+    path: ./RuleSetUrei/GlobalMedia.yaml
+    type: http
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/GlobalMedia.yaml
+  Lan:
+    behavior: classical
+    interval: 86400
+    path: ./RuleSetUrei/Lan.yaml
+    type: http
+    url: https://raw.githubusercontent.com/wushixiaoyou/Clash-Rule/main/Clash/Lan.yaml
