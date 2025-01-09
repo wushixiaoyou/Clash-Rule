@@ -2515,7 +2515,7 @@ payload:
   - DOMAIN-SUFFIX,oncdp.com
   - DOMAIN-SUFFIX,oneapm.com
   - DOMAIN-SUFFIX,onegreen.net
-  - DOMAIN-SUFFIX,onenote.net
+ # - DOMAIN-SUFFIX,onenote.net
   - DOMAIN-SUFFIX,oneplus.com
   - DOMAIN-SUFFIX,oneplus.net
   - DOMAIN-SUFFIX,oneplusbbs.com
