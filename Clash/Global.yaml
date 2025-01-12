@@ -24,7 +24,7 @@ payload:
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN-SUFFIX,googleapis.com
-
+  - DOMAIN-SUFFIX,parsec.app
   - DOMAIN-SUFFIX,vrchat.com
   
   - DOMAIN,store-images.s-microsoft.com
