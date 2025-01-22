@@ -46,7 +46,7 @@ payload:
   - PROCESS-NAME,proven_ground_client.exe #战意
 
  
-  - DOMAIN,ac-baidu.tujidu.com #Ac-百度重定向用设置页    - DOMAIN,ac-baidu.90dao.com #官网
+  #- DOMAIN,ac-baidu.tujidu.com #Ac-百度重定向用设置页    - DOMAIN,ac-baidu.90dao.com #官网
   - IP-CIDR,159.138.30.204/24 #战意服务器 失效
 
 
