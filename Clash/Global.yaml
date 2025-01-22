@@ -32,8 +32,8 @@ payload:
   #- DOMAIN,storeedgefd.dsx.mp.microsoft.com #微软商店
   - DOMAIN-SUFFIX,microsoft.com #微软商店
   - DOMAIN-SUFFIX,visualstudio.com
-  - DOMAIN,ac-baidu.90dao.com #Ac-百度重定向用官网
-
+  - DOMAIN,ac-baidu.90dao.com #Ac-百度重定向 用 官网
+  - DOMAIN-SUFFIX,tujidu.com #Ac-百度重定向 用 设置页
 
   
   - DOMAIN-KEYWORD,kaspersky
