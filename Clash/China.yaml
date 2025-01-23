@@ -43,7 +43,7 @@ payload:
   - PROCESS-NAME,mstsc.exe #hyper-v or 远程桌面？
   - PROCESS-NAME,SunloginClient.exe #向日葵服务
   - PROCESS-NAME,sunlogin_guard.exe #向日葵服务
-  - PROCESS-NAME,proven_ground_client.exe #战意
+  #- PROCESS-NAME,proven_ground_client.exe #战意
 
  
   #- DOMAIN,ac-baidu.tujidu.com #Ac-百度重定向用设置页    - DOMAIN,ac-baidu.90dao.com #官网
