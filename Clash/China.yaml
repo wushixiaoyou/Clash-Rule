@@ -3371,7 +3371,7 @@ payload:
   - DOMAIN-SUFFIX,win7china.com
   - DOMAIN-SUFFIX,win8.net
   - DOMAIN-SUFFIX,win8china.com
-  - DOMAIN-SUFFIX,windows.com
+  #- DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,windows10zj.com
   - DOMAIN-SUFFIX,windows7en.com
